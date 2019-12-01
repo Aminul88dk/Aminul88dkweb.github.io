@@ -1,0 +1,128 @@
+
+
+
+/* RESPONSIVE FOR 1024PX */
+@media only screen and (max-width: 1024px){
+    header {
+        background: linear-gradient(rgba(233, 233, 233, 0.8),rgba(233, 233, 233, 0.8)),url(/Resources/img/web1.jpg) no-repeat;
+        background-size: cover;
+        background-position: center 90%;
+        height: 80vh;
+    }
+    nav{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+}
+
+
+/* RESPONSIVE FOR 980PX */
+@media only screen and (max-width: 980px){
+    .span_1_of_4{
+        width: 49.2%;
+    }
+    .span_1_of_4:nth-child(3){
+        margin-left: 0;
+    }
+    .hero-text{
+        font-size: 1.3rem;
+    }
+    .icon-section .little-description{
+        width: 50%;
+        margin: 2rem auto;
+    }
+    .icon-section h4{
+        margin-top: 1rem;
+    }
+    .about-section{
+        height: 90vh;
+    }
+    .review-section i{
+        float: none;
+    }
+    .review-section .icon{
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .review-section .description{
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+        
+    }
+    .review-section h4,h6{
+        font-size: 1.4rem;
+    }
+    .swiper-container{
+        width:90%;
+        margin: 0 auto;
+        height: 40rem;
+    }
+    .main-nav{
+        display:none;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    
+}
+
+
+/* RESPONSIVE FOR 768PX */
+@media only screen and (max-width: 768px){
+    .span_1_of_4{
+        width: 100%;
+    }
+    .icon-section img{
+        height: 3rem;
+    }
+    .icon-section h4{
+        font-size: 1.6rem;
+    }
+    .icon-section .little-description{
+        width: 30%;
+        margin: 2rem auto;
+        font-size: 1.7rem;
+    }
+    .contact-section form {
+        width: 80%;
+    }
+    .slider-section p {
+        margin-top: 6rem;
+    }
+    .hero-text{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+    .btn{
+        padding: 1rem 2.5rem;
+    }
+    .skill-section{
+        height: 70vh;
+    }
+    .skill-section .part-1{
+        margin-bottom: 30px;
+    }
+    .skill-section .part-1,
+    .skill-section .part-2 {
+        width: 100%;
+    }
+}
+/* RESPONSIVE FOR 480PX */
+@media only screen and (max-width: 480px){
+    .about-section{
+        height: 100vh;
+    }
+    .c2{
+        top: 17rem;
+        left: 10%;
+    }
+    .slider-section .quoats{
+        width: 80%;
+    }
+}
